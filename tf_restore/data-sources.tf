@@ -9,6 +9,7 @@ data "azurerm_resource_group" "fc_cap_rg" {
 #######################
 data "fabric_capacity" "capacity" {
   display_name = "fc${var.solution_name_restored}"
+  depends_on = [ azurerm_fabric_capacity.kql_demo_restored ]
 }
 #######################
 ### Entra ID Group  ###
