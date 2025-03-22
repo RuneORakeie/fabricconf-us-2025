@@ -44,12 +44,12 @@ variable "admin_user" {
   sensitive   = true
   # Will read from TF_VAR_admin_user environment variable
 }
-variable "admin_user2" {
-  description = "MS Fabric admin user"
-  type        = string
-  sensitive   = true
-  # Will read from TF_VAR_admin_user2 environment variable
-}
+# variable "admin_user2" {
+#   description = "MS Fabric admin user"
+#   type        = string
+#   sensitive   = true
+#   # Will read from TF_VAR_admin_user2 environment variable
+# }
 variable "azeventhub_saskey" {
   description = "Shared Access Key for the Event Hub"
   type        = string
