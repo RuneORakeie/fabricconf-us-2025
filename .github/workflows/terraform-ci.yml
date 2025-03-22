@@ -54,7 +54,6 @@ jobs:
          client_id = "${{ secrets.FABRIC_CLIENT_ID }}"
          client_secret = "${{ secrets.FABRIC_CLIENT_SECRET }}"
          admin_user = "${{ secrets.ADMIN_USER }}"
-         admin_user2 = "${{ secrets.ADMIN_USER2 }}"
          azeventhub_saskey = "${{ secrets.AZURE_EVENTHUB_KEY }}"
         
   
