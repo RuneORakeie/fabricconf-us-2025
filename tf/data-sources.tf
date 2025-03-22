@@ -1,8 +1,8 @@
 #######################
 ###  Executing USER ###
 #######################
-data "azuread_client_config" "current" {
-}
+# data "azuread_client_config" "current" {
+# }
 #######################
 ### RESOURCE GROUPS ###
 #######################
