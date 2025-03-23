@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Eventstream",
+    "displayName": "kql-es-fabricconf2025us",
+    "description": ""
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "05e2dc64-8eae-a26e-468c-8a2b02600651"
+  }
+}

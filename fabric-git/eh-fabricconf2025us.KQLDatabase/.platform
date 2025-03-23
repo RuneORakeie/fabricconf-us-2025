@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "KQLDatabase",
+    "displayName": "eh-fabricconf2025us",
+    "description": "eh-fabricconf2025us"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1c152148-a998-8e92-4b9b-085000dc247f"
+  }
+}
