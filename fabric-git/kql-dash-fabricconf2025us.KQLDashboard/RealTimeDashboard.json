@@ -12,7 +12,7 @@
       "pageId": "155ddbba-ddb1-4e2d-9ce8-db739f770a7c",
       "layout": {
         "x": 0,
-        "y": 2,
+        "y": 3,
         "width": 9,
         "height": 7
       },
@@ -65,10 +65,10 @@
       "visualType": "markdownCard",
       "pageId": "155ddbba-ddb1-4e2d-9ce8-db739f770a7c",
       "layout": {
-        "x": 0,
+        "x": 4,
         "y": 0,
-        "width": 18,
-        "height": 2
+        "width": 14,
+        "height": 3
       },
       "markdownText": "# Environmental Monitoring Dashboard\n",
       "visualOptions": {}
@@ -80,7 +80,7 @@
       "pageId": "155ddbba-ddb1-4e2d-9ce8-db739f770a7c",
       "layout": {
         "x": 0,
-        "y": 9,
+        "y": 10,
         "width": 9,
         "height": 7
       },
@@ -132,7 +132,7 @@
       "pageId": "155ddbba-ddb1-4e2d-9ce8-db739f770a7c",
       "layout": {
         "x": 9,
-        "y": 2,
+        "y": 3,
         "width": 9,
         "height": 7
       },
@@ -184,7 +184,7 @@
       "pageId": "155ddbba-ddb1-4e2d-9ce8-db739f770a7c",
       "layout": {
         "x": 9,
-        "y": 9,
+        "y": 10,
         "width": 9,
         "height": 7
       },
@@ -200,6 +200,20 @@
         "heatMap__colorPaletteKey": "blue",
         "yColumns": null
       }
+    },
+    {
+      "id": "71d16b48-2d14-41f5-b5e3-e09032af46b1",
+      "title": "",
+      "visualType": "markdownCard",
+      "pageId": "155ddbba-ddb1-4e2d-9ce8-db739f770a7c",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 4,
+        "height": 3
+      },
+      "markdownText": "![](https://fabricconf.com/content/images/logos/fabric-white.png)",
+      "visualOptions": {}
     }
   ],
   "baseQueries": [],
