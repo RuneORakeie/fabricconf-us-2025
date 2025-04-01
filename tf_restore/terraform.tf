@@ -11,7 +11,7 @@ terraform {
     ## Microsoft Fabric 
     fabric = {
       source  = "microsoft/fabric"
-      version = "0.1.0-rc.1"
+      version = "~> 1"
     }
     ## Entra ID 
     azuread = {

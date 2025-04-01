@@ -59,6 +59,7 @@ resource "fabric_eventstream" "kql_demo_es_restore" {
 ########################
 resource "fabric_kql_dashboard" "kql_demo_dash_restore" {
   display_name = "kql-dash-${var.solution_name_restored}"
+  description  = "kql-dash-${var.solution_name_restored}"
   workspace_id = module.demo_ws_prod_restore.id
   format       = "Default"
   definition = {

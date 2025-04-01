@@ -1,5 +1,5 @@
 module "demo_ws_prod_restore" {
-  source        = "github.com/RuneORakeie/terraform-modules-fabric//fabric-workspace?ref=beta-v0.1.2"
+  source        = "github.com/RuneORakeie/terraform-modules-fabric//fabric-workspace?ref=v0.1.3"
   display_name  = "${var.solution_name_restored} - WS"
   description   = "FabCon US 2025 - RTI demo workspace"
   capacity_id   = data.fabric_capacity.capacity.id
