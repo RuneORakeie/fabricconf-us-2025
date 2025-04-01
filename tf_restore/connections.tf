@@ -1,5 +1,5 @@
 module "ws_conn_eventhub" {
-  source          = "github.com/RuneORakeie/terraform-modules-fabric//fabric-connection?ref=beta-v0.1.2"
+  source          = "github.com/RuneORakeie/terraform-modules-fabric//fabric-connection?ref=v0.1.3"
   connection_name = "AzEventHub-${var.solution_name_restored}-restored"
   connection_type = "EventHub"
 

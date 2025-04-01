@@ -1,7 +1,7 @@
 variable "solution_name_restored" {
   description = "Name of the solution"
   type        = string
-  default     = "lasvegas2025"
+  default     = "test2025"
 }
 
 variable "location" {
