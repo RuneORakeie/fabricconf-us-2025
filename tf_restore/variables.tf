@@ -62,3 +62,4 @@ variable "solution_name" {
   type        = string
   default     = "sqlkonferenz2025"
 }
+
