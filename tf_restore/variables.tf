@@ -1,7 +1,7 @@
 variable "solution_name_restored" {
   description = "Name of the solution"
   type        = string
-  default     = "lasvegas2025"
+  default     = "sqlsatnyc2025"
 }
 
 variable "location" {
@@ -62,4 +62,3 @@ variable "solution_name" {
   type        = string
   default     = "sqlkonferenz2025"
 }
-
