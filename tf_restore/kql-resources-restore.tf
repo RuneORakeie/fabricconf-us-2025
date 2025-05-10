@@ -64,7 +64,7 @@ resource "fabric_kql_dashboard" "kql_demo_dash_restore" {
   format       = "Default"
   definition = {
     "RealTimeDashboard.json" = {
-      source = "../item-templates/RealTimeDashboard-fabcon2025us.json"
+      source = "../item-templates/RealTimeDashboard-SQLSatNYC2025.json"
       tokens = {
         "QuerySvcUri" = fabric_kql_database.kql_demo_db_1_restore.properties.query_service_uri
         "KqlDbId"     = fabric_kql_database.kql_demo_db_1_restore.id
